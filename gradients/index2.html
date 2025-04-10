@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radial-Gradient</title>
+    <style>
+        /* *{
+            margin: 0;
+            padding: 0;
+
+        } */
+        body{
+            display: flex;
+            justify-content: center;
+        
+        }
+        .container {
+            position: fixed;
+            margin-top: 150px;
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+            border: 3px solid black;
+            background: radial-gradient(circle,
+                  yellow 0px,yellow 20px,
+
+                    Red 20px, Red 40px,
+
+                    Blue 40px,  Blue 60px,
+
+                    Black 60px, Black 80px,
+
+                    White 80px, White 100px);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>BULLSEYE</h1>
+    <div class="container">        
+    </div>
+</body>
+
+</html>
